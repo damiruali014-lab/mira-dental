@@ -37,6 +37,9 @@ export function Seo() {
       l.rel = 'canonical'
       return l
     })
+    // Unknown URLs are served by the SPA fallback with HTTP 200, so keep them out of search results.
+    document.head.querySelector('meta[name="robots"]')?.remove()
+    if (s.noindex) document.head.appendChild(meta('robots')()).setAttribute('content', 'noindex')
   }, [pathname, t, lang])
 
   return null
