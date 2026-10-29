@@ -57,7 +57,7 @@ Cyrillic, so Russian text falls back to Literata and Golos Text; those files loa
    (build `npm run build`, output `dist`).
 3. Deploy. Every route is prerendered to its own `index.html`; `vercel.json` adds the SPA
    fallback rewrite and long-cache headers for `/assets` and `/images`.
-4. If the domain is not `mira-dental.vercel.app`, change `SITE_URL` in `src/config.ts`
+4. If the domain is not `mira-dental-jade.vercel.app`, change `SITE_URL` in `src/config.ts`
    (canonical URLs, Open Graph images and `sitemap.xml` use it), then redeploy.
 
 Or from the terminal: `npx vercel` (preview) and `npx vercel --prod`.

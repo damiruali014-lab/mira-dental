@@ -1,5 +1,5 @@
 // Contact details for the (fictional) clinic. Swap these for a real client's details.
-export const SITE_URL = 'https://mira-dental.vercel.app'
+export const SITE_URL = 'https://mira-dental-jade.vercel.app'
 export const WHATSAPP_NUMBER = '77000000000'
 export const PHONE_DISPLAY = '+7 700 000 00 00'
 export const PHONE_TEL = '+77000000000'
